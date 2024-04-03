@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Times New Roman', Times, serif !important;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.bgbady{
+    background-image: url(../Images/882pIkbEsTuAi\ \(1\).jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    height: 70px;
+    background-color: rgb(82, 62, 136);
+    padding: 10px 20px;
+}
+.head-pro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headimg{
+    position: absolute;
+    height: 50px !important;
+    width: 150px !important;
+}
+.brand {
+    margin-left: 600px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #f3efef;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav  li a {
+    display: block;
+    color: #fff;
+    min-width: 80px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+
+.formsin {
+
+    position: absolute;
+    top:58%;
+    left:50%;
+    border: 4px solid rgb(10, 51, 238);
+    border-radius: 25px;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    text-align: center;
+   background-color: rgba(0, 0, 0, 0.3);
+   
+    
+}
+.logaddreg{
+    position: absolute;
+    width:250px;
+    height: 150px;
+    top: -130px;
+    left:310px;
+}
+.formsin label{
+    display: inline-block;
+    width:160px  !important;
+    color: #fff;
+    font-size:20PX;
+    text-align: left;
+    margin-right: 40px;
+    font-weight: 800;
+}
+.formsin  h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color:rgb(245, 12, 12);
+    margin-top:20px;
+    
+}
+.formsin  form input {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    display: inline-block;
+    width:70%;
+    margin-top: 25px;
+    margin-right: 30px;
+    height: 30px;
+    border: 1px  solid #3211f3;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.texinput{
+    /* background-color: rgba(226, 209, 209 ,0.1); */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px!important;
+}
+.formsin form  input[type="submit"] {
+    width: 500px;
+    font-size: 25px;
+    text-transform: uppercase;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: #0760e6;
+}
+.formsin form  input[type="submit"]:hover {
+    opacity: .4;
+}
+nav  ul#user_info {
+    display: none;
+}
+.products {
+    width: 60%;
+    margin: 10px 0;
+    margin-left: 200px;
+
+}
+.product_item {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 14px !important;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.products-img {
+    width: 40% !important;
+    margin-right:10px ;
+}
+.product_item_action  {
+    flex:1;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.product_item .add_to_cart {
+    display: block;
+    margin-left: auto;
+    background-color: rgb(10, 62, 87);
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product_item .fav {
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    margin-left: auto;
+}
+.ttitleprodact{
+    margin-top: 10px;
+}
+nav ul#user_info li i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav ul#user_info li{
+    margin: 0px 10px;
+    position: relative;
+}
+nav ul#user_info li .viewbage {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    top:-10px;
+    right:-10px;
+    font-size: 13px;
+    display: none;
+}
+.pargraph{
+    color: #474242;
+    width: 360px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.price{
+    margin-top: 10px;
+}
+.NAVCART{
+    position: relative;
+}
+.cartspro {
+    position: absolute;
+    width:210px;
+    transform: translate(-40px,0);
+    background-color: #eaeaea;
+    top: 56px;
+    padding: 10px;
+
+    border: 1px solid green;
+    display: none;
+}
+.cartspro a {
+   display: block;
+   color: #000;
+   margin: 4px 0;
+   padding: 10px ;
+   background-color: rgb(13, 49, 78);
+   color: #157bb6;
+   text-align: center;
+   text-decoration: none;
+}
+.carsit{
+   padding-left: 40px ;
+}
